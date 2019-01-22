@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "The police that opponents to @INC contamination",
    "author" : [
       "ytnobody <ytnobody@gmail.com>"
    ],
@@ -42,6 +42,7 @@
       },
       "runtime" : {
          "requires" : {
+            "MoobX" : "0",
             "perl" : "5.008001"
          }
       },
@@ -52,8 +53,22 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/ytnobody/p5-Acme-AtIncPolice/issues"
+      },
+      "homepage" : "https://github.com/ytnobody/p5-Acme-AtIncPolice",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ytnobody/p5-Acme-AtIncPolice.git",
+         "web" : "https://github.com/ytnobody/p5-Acme-AtIncPolice"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:YTURTLE",
+   "x_contributors" : [
+      "sazuma <azuma.satoshi@colon.ne.jp>"
+   ],
    "x_serialization_backend" : "JSON::PP version 2.97001",
    "x_static_install" : 1
 }
