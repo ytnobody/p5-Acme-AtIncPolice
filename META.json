@@ -48,6 +48,7 @@
       },
       "test" : {
          "requires" : {
+            "Test::Exception" : "0",
             "Test::More" : "0.98"
          }
       }
@@ -64,7 +65,7 @@
          "web" : "https://github.com/ytnobody/p5-Acme-AtIncPolice"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_authority" : "cpan:YTURTLE",
    "x_contributors" : [
       "sazuma <azuma.satoshi@colon.ne.jp>"
